@@ -8,7 +8,7 @@ defmodule App.Users.UserNotifier do
     email =
       new()
       |> to(recipient)
-      |> from({"App", "contact@example.com"})
+      |> from({"Resend Demo", "onboarding@resend.dev"})
       |> subject(subject)
       |> text_body(body)
 

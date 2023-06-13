@@ -20,6 +20,10 @@ if System.get_env("PHX_SERVER") do
   config :app, AppWeb.Endpoint, server: true
 end
 
+config :app, App.Mailer,
+  adapter: Resend.Swoosh.Adapter,
+  api_key: System.fetch_env!("RESEND_KEY") || "re_123456789"
+
 if config_env() == :prod do
   database_url =
     System.get_env("DATABASE_URL") ||
