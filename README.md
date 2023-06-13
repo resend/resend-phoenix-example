@@ -4,6 +4,13 @@ This example shows how to use Resend with [Phoenix](https://phoenixframework.org
 
 Created using Phoenix [v1.7.3](https://github.com/phoenixframework/phoenix/releases/tag/v1.7.3).
 
+## Prerequisites
+
+To get the most out of this guide, you’ll need to:
+
+* [Create an API key](https://resend.com/api-keys)
+* [Verify your domain](https://resend.com/domains)
+
 ## Setup
 
 Add `:resend` to your project deps:
