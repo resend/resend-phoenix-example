@@ -1,30 +1,18 @@
-# Resend with Example
+# App
 
-This example shows how to use Resend with [Example](https://example.com).
+To start your Phoenix server:
 
-## Prerequisites
+  * Run `mix setup` to install and setup dependencies
+  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
-To get the most out of this guide, you’ll need to:
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-* [Create an API key](https://resend.com/api-keys)
-* [Verify your domain](https://resend.com/domains)
+Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
-## Instructions
+## Learn more
 
-1. Replace `re_123456789` on `example.ts` with your API key.
-
-2. Install dependencies:
-
-  ```sh
-TBD
-  ```
-
-3. Execute the following command:
-
-  ```sh
-TBD
-  ```
-
-## License
-
-MIT License
+  * Official website: https://www.phoenixframework.org/
+  * Guides: https://hexdocs.pm/phoenix/overview.html
+  * Docs: https://hexdocs.pm/phoenix
+  * Forum: https://elixirforum.com/c/phoenix-forum
+  * Source: https://github.com/phoenixframework/phoenix
