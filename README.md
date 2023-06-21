@@ -18,7 +18,7 @@ Add `:resend` to your project deps:
 ```elixir
   defp deps do
     [
-      {:resend, "~> 0.2"},
+      {:resend, "~> 0.4"},
       # ...
     ]
   end
@@ -32,7 +32,7 @@ to [`config/runtime.exs`](./config/runtime.exs):
 ```elixir
 config :app, App.Mailer,
   adapter: Resend.Swoosh.Adapter,
-  api_key: System.fetch_env!("RESEND_KEY") || "re_123456789"
+  api_key: System.get_env("RESEND_KEY") || "re_123456789"
 ```
 
 Replace `re_123456789` with your own API key, or fetch it from the environment.
