@@ -1,3 +1,11 @@
+> [!IMPORTANT]
+> This repository has been consolidated into the new [resend-examples](https://github.com/resend/resend-examples) monorepo, which contains updated examples for all languages and frameworks.
+>
+> **[View the Phoenix examples here](https://github.com/resend/resend-examples/tree/main/elixir-resend-examples/phoenix_app)**
+
+---
+
+
 # Resend with Phoenix
 
 This example shows how to use Resend with [Phoenix](https://phoenixframework.org/).
